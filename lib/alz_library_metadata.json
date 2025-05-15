@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/library_metadata.json",
+  "name": "ALZ-Zero-Policy",
+  "display_name": "Azure Landing Zones - Zero Policy",
+  "description": "This library contains customizations to Azure Landing Zones.",
+  "dependencies": [
+    {
+      "custom_url": "git::https://github.com/NetAion/alz-library.git//platform/alz-zero-policy?ref=dev-zero-policy"
+    }
+  ]
+}
